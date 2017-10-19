@@ -1,0 +1,1107 @@
+<div aria-hidden="false">
+    <div class="row has-price">
+        <div class="">
+            <h2 class="textcenter">
+                1. Pick Your Plan
+            </h2>
+            <div class="row">
+                <div class="col-xs-10 col-xs-push-1  col-sm-8  col-sm-push-2  col-md-3  col-md-push-0">
+                    <div class="price-outer-wrapper option-S">
+                        <div class="price-wrapper">
+                            <h3 class="price-title price-title-S">
+                                S - Super
+                            </h3>
+
+                            <div class="price price-S inner-wrap" style="text-align:justify">
+                                <div class="value-box value-box-S">
+                                    <div class="value-box-content">
+                                        <span class="value">
+                                            <i>
+                                            </i>
+                                            <span class="number addspeed-S">
+                                                100 GB
+                                            </span>
+                                            
+                                        </span>
+                                        <span class="value">
+                                            <i>
+                                                $
+                                            </i>
+                                            <span class="price-number price addspeed-Super">
+                                                49
+                                            </span>
+                                        </span>
+
+                                        </span>
+                                        <span class="meta ">
+                                                per month
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="content-box">
+                                    <ul>
+                                        <li class="price-summary">
+                                            Great for infrequent use such as light web surfing and email
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="meta-box">
+                                    <a class="btn btn-default" data-action="loadPrice">
+                                        <span class="btext">
+                                            Select
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-10 col-xs-push-1  col-sm-8  col-sm-push-2  col-md-3 col-md-push-0">
+                    <div class="price-outer-wrapper option-S">
+                        <div class="price-wrapper ">
+                            <h3 class="price-title price-title-S">
+                                M - Super
+                            </h3>
+                            <div class="price price-m  inner-wrap" style="text-align:justify">
+                                <div class="value-box value-box-S">
+                                    <div class="value-box-content">
+                                        <span class="value">
+                                            <i>
+                                            </i>
+                                            <span class="number addspeed-S">
+                                               250 GB
+                                            </span>
+                                        </span>
+                                        <span class="value">
+                                            <i>
+                                                $
+                                            </i>
+                                            <span class="price-number price addspeed-Super">
+                                                59
+                                            </span>
+                                        </span>
+
+                                         <span class="meta ">
+                                                per month
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="content-box">
+                                    <ul>
+                                        <li class="price-summary">
+                                            Our most popular speed; ideal for day to day use
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="meta-box">
+                                    <a class="btn btn-default" >
+                                        <span class="btext">
+                                            Select
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-10 col-xs-push-1  col-sm-8  col-sm-push-2 col-md-3 col-md-push-0">
+                    <div class="price-outer-wrapper option-L">
+                        <div class="price-wrapper ">
+                            <h3 class="price-title price-title-L">
+                                L - Super
+                            </h3>
+                            <div class="price price-L inner-wrap" style="text-align:justify">
+                                <div class="value-box value-box-L">
+                                    <div class="value-box-content">
+                                        <span class="value">
+                                            <i>
+                                            </i>
+                                            <span class="number addspeed-L">
+                                                500 GB
+                                            </span>
+                                        </span>
+                                         <span class="value">
+                                            <i>
+                                                $
+                                            </i>
+                                            <span class="price-number price addspeed-Super">
+                                               69
+                                            </span>
+                                        </span>
+                                        <span class="meta">
+                                                per month
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="content-box">
+                                    <ul>
+                                        <li class="price-summary">
+                                            Perfect for families that watch videos online or download lots
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="meta-box">
+                                    <a class="btn btn-default" >
+                                        <span class="btext">
+                                            Select
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-xs-10 col-xs-push-1  col-sm-8  col-sm-push-2  col-md-3 col-md-push-0">
+                    <div class="price-outer-wrapper option-L">
+                        <div class="price-wrapper ">
+                            <h3 class="price-title price-title-L">
+                                XL - Super
+                            </h3>
+                            <div class="price price-xl  inner-wrap" style="text-align:justify">
+                                <div class="value-box value-box-L">
+                                    <div class="value-box-content">
+                                        <span class="value">
+                                            <i>
+                                            </i>
+                                            <span class="number addspeed-L">
+                                                1000 GB
+                                            </span>
+                                        </span>
+                                         <span class="value">
+                                            <i>
+                                                $
+                                            </i>
+                                            <span class="price-number price addspeed-Super">
+                                               79
+                                            </span>
+                                        </span>
+                                        <span class="meta">
+                                                per month
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="content-box">
+                                    <ul>
+                                        <li class="price-summary">
+                                            Great for infrequent use such as light web surfing and email
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="meta-box">
+                                    <a class="btn btn-default" >
+                                        <span class="btext">
+                                            Select
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                   <div class="col-xs-10 col-xs-push-1  col-sm-8  col-sm-push-2  col-md-3  col-md-push-0">
+                    <div class="price-outer-wrapper option-S">
+                        <div class="price-wrapper ">
+                            <h3 class="price-title price-title-S">
+                                S - Booster
+                            </h3>
+                            <div class="price price-S  inner-wrap" style="text-align:justify">
+                                <div class="value-box value-box-S">
+                                    <div class="value-box-content">
+                                        <span class="value">
+                                            <i>
+                                            </i>
+                                            <span class="number addspeed-S">
+                                                100 GB
+                                            </span
+                                        </span>
+                                         <span class="value">
+                                            <i>
+                                                $
+                                            </i>
+                                            <span class="price-number price addspeed-Super">
+                                               59
+                                            </span>
+                                        </span>
+
+                                        </span>
+                                        <span class="meta ">
+                                                per month
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="content-box">
+                                    <ul>
+                                        <li class="price-summary">
+                                            Great for infrequent use such as light web surfing and email
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="meta-box">
+                                    <a class="btn btn-default"  data-action="loadPrice">
+                                        <span class="btext">
+                                            Select
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-10 col-xs-push-1  col-sm-8  col-sm-push-2  col-md-3 col-md-push-0">
+                    <div class="price-outer-wrapper option-S">
+                        <div class="price-wrapper ">
+                            <h3 class="price-title price-title-S">
+                                M - Booster
+                            </h3>
+                            <div class="price price-m  inner-wrap" style="text-align:justify">
+                                <div class="value-box value-box-S">
+                                    <div class="value-box-content">
+                                        <span class="value">
+                                            <i>
+                                            </i>
+                                            <span class="number addspeed-S">
+                                               250 GB
+                                            </span>
+                                        </span>
+                                         <span class="value">
+                                            <i>
+                                                $
+                                            </i>
+                                            <span class="price-number price addspeed-Super">
+                                               69
+                                            </span>
+                                        </span>
+                                         <span class="meta ">
+                                                per month
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="content-box">
+                                    <ul>
+                                        <li class="price-summary">
+                                            Our most popular speed; ideal for day to day use
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="meta-box">
+                                    <a class="btn btn-default" >
+                                        <span class="btext">
+                                            Select
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-10 col-xs-push-1  col-sm-8  col-sm-push-2 col-md-3 col-md-push-0">
+                    <div class="price-outer-wrapper option-L">
+                        <div class="price-wrapper ">
+                            <h3 class="price-title price-title-L">
+                                L - Booster
+                            </h3>
+                            <div class="price price-L  inner-wrap" style="text-align:justify">
+                                <div class="value-box value-box-L">
+                                    <div class="value-box-content">
+                                        <span class="value">
+                                            <i>
+                                            </i>
+                                            <span class="number addspeed-L">
+                                                500 GB
+                                            </span>
+                                        </span>
+
+                                        <span class="value">
+                                            <i>
+                                                $
+                                            </i>
+                                            <span class="price-number price addspeed-Super">
+                                               79
+                                            </span>
+                                        </span>
+
+                                        <span class="meta">
+                                                per month
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="content-box">
+                                    <ul>
+                                        <li class="price-summary">
+                                            Perfect for families that watch videos online or download lots
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="meta-box">
+                                    <a class="btn btn-default" >
+                                        <span class="btext">
+                                            Select
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-xs-10 col-xs-push-1  col-sm-8  col-sm-push-2  col-md-3 col-md-push-0">
+                    <div class="price-outer-wrapper option-L">
+                        <div class="price-wrapper ">
+                            <h3 class="price-title price-title-L">
+                                XL - Booster
+                            </h3>
+                            <div class="price price-xl  inner-wrap" style="text-align:justify">
+                                <div class="value-box value-box-L">
+                                    <div class="value-box-content">
+                                        <span class="value">
+                                            <i>
+                                            </i>
+                                            <span class="number addspeed-L">
+                                                1000 GB
+                                            </span>
+                                        </span>
+                                        <span class="value">
+                                            <i>
+                                                $
+                                            </i>
+                                            <span class="price-number price addspeed-Super">
+                                               89
+                                            </span>
+                                        </span>
+                                        <span class="meta">
+                                                per month
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="content-box">
+                                    <ul>
+                                        <li class="price-summary">
+                                            Great for infrequent use such as light web surfing and email
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="meta-box">
+                                    <a class="btn btn-default" >
+                                        <span class="btext">
+                                            Select
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                   <div class="col-xs-10 col-xs-push-1  col-sm-8  col-sm-push-2  col-md-3  col-md-push-0">
+                    <div class="price-outer-wrapper option-S">
+                        <div class="price-wrapper ">
+                            <h3 class="price-title price-title-S">
+                                S - Turbo
+                            </h3>
+                            <div class="price price-S  inner-wrap" style="text-align:justify">
+                                <div class="value-box value-box-S">
+                                    <div class="value-box-content">
+                                        <span class="value">
+                                            <i>
+                                            </i>
+                                            <span class="number addspeed-S">
+                                                100 GB
+                                            </span>
+                                            <i>
+                                                $
+                                            </i>
+                                            <span class="price-number addspeed-Super">
+                                                49
+                                            </span>
+                                        </span>
+                                        </span>
+                                        <span class="meta ">
+                                                per month
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="content-box">
+                                    <ul>
+                                        <li class="price-summary">
+                                            Great for infrequent use such as light web surfing and email
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="meta-box">
+                                    <a class="btn btn-default"  data-action="loadPrice">
+                                        <span class="btext">
+                                            Select
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-10 col-xs-push-1  col-sm-8  col-sm-push-2  col-md-3 col-md-push-0">
+                    <div class="price-outer-wrapper option-S">
+                        <div class="price-wrapper ">
+                            <h3 class="price-title price-title-S">
+                                M - Turbo
+                            </h3>
+                            <div class="price price-m  inner-wrap" style="text-align:justify">
+                                <div class="value-box value-box-S">
+                                    <div class="value-box-content">
+                                        <span class="value">
+                                            <i>
+                                            </i>
+                                            <span class="number addspeed-S">
+                                               250 GB
+                                            </span>
+                                        </span>
+                                        <span class="value">
+                                            <i>
+                                                $
+                                            </i>
+                                            <span class="price-number price addspeed-Super">
+                                               69
+                                            </span>
+                                        </span>
+                                         <span class="meta ">
+                                                per month
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="content-box">
+                                    <ul>
+                                        <li class="price-summary">
+                                            Our most popular speed; ideal for day to day use
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="meta-box">
+                                    <a class="btn btn-default" >
+                                        <span class="btext">
+                                            Select
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-10 col-xs-push-1  col-sm-8  col-sm-push-2 col-md-3 col-md-push-0">
+                    <div class="price-outer-wrapper option-L">
+                        <div class="price-wrapper ">
+                            <h3 class="price-title price-title-L">
+                                L - Turbo
+                            </h3>
+                            <div class="price price-L  inner-wrap" style="text-align:justify">
+                                <div class="value-box value-box-L">
+                                    <div class="value-box-content">
+                                        <span class="value">
+                                            <i>
+                                            </i>
+                                            <span class="number addspeed-L">
+                                                500 GB
+                                            </span>
+                                        </span>
+                                         <span class="value">
+                                            <i>
+                                                $
+                                            </i>
+                                            <span class="price-number price addspeed-Super">
+                                               69
+                                            </span>
+                                        </span>
+
+                                        <span class="meta">
+                                                per month
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="content-box">
+                                    <ul>
+                                        <li class="price-summary">
+                                            Perfect for families that watch videos online or download lots
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="meta-box">
+                                    <a class="btn btn-default" >
+                                        <span class="btext">
+                                            Select
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-xs-10 col-xs-push-1  col-sm-8  col-sm-push-2  col-md-3 col-md-push-0">
+                    <div class="price-outer-wrapper option-L">
+                        <div class="price-wrapper ">
+                            <h3 class="price-title price-title-L">
+                                XL - Turbo
+                            </h3>
+                            <div class="price price-xl  inner-wrap" style="text-align:justify">
+                                <div class="value-box value-box-L">
+                                    <div class="value-box-content">
+                                        <span class="value">
+                                            <i>
+                                            </i>
+                                            <span class="number addspeed-L">
+                                                1000 GB
+                                            </span>
+                                        </span>
+                                        <span class="value">
+                                            <i>
+                                                $
+                                            </i>
+                                            <span class="price-number price addspeed-Super">
+                                               69
+                                            </span>
+                                        </span>
+                                        <span class="meta">
+                                                per month
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="content-box">
+                                    <ul>
+                                        <li class="price-summary">
+                                            Great for infrequent use such as light web surfing and email
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="meta-box">
+                                    <a class="btn btn-default" >
+                                        <span class="btext">
+                                            Select
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="push" style="height:10px">
+            </div>
+        </div>
+    </div>
+    <div class="sep">
+    </div>
+
+    <?php /* ?
+    <div class="row has-price">
+        <div class="">
+            <h2 class="textcenter">
+                2. Pick a Speed:
+            </h2>
+            <div class="row ">
+                <div class="col-xs-10 col-xs-push-1  col-sm-8  col-sm-push-2 col-md-4 col-md-push-0">
+                    <div class="price-outer-wrapper option-Super">
+                        <div class="price-wrapper ">
+                            <h3 class="price-title price-title-Super">
+                                Super
+                            </h3>
+                            <div class="price price-Super" style="text-align:justify">
+                                <div class="value-box value-box-Super">
+                                    <div class="value-box-content">
+                                        <span class="value">
+                                            <i>
+                                                $
+                                            </i>
+                                            <span class="number addspeed-Super">
+                                                49
+                                            </span>
+                                        </span>
+                                        <span class="meta ">
+                                            per month
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="content-box">
+                                    <ul data-product="200">
+                                        
+                                        <li class="price-speed">
+                                            12
+                                            <span class="">
+                                                MBPS
+                                            </span>
+                                        </li>
+                                        <li class="price-summary">
+                                            Generous allowance, more than enough for light users
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="meta-box">
+                                    <a class="btn btn-default" >
+                                        <span class="btext">
+                                            Select
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-xs-10 col-xs-push-1  col-sm-8  col-sm-push-2 col-md-4 col-md-push-0">
+                    <div class="price-outer-wrapper option-Booster">
+                        <div class="price-wrapper ">
+                            <h3 class="price-title price-title-Booster">
+                                Booster
+                            </h3>
+                            <div class="price price-Extreme" style="text-align:justify">
+                                <div class="value-box value-box-Booster">
+                                    <div class="value-box-content">
+                                        <span class="value">
+                                            <i>
+                                                $
+                                            </i>
+                                            <span class="number addspeed-Booster">
+                                                59
+                                            </span>
+                                        </span>
+                                        <span class="meta ">
+                                            per month
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="content-box">
+                                    <ul data-product="200">
+                                        
+                                        <li class="price-speed">
+                                            25
+                                            <span class="">
+                                                MBPS
+                                            </span>
+                                        </li>
+                                        <li class="price-summary">
+                                            Generous allowance, more than enough for light users
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="meta-box">
+                                    <a class="btn btn-default" >
+                                        <span class="btext">
+                                            Select
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                  <div class="col-xs-10 col-xs-push-1  col-sm-8  col-sm-push-2 col-md-4 col-md-push-0">
+                    <div class="price-outer-wrapper option-Turbo">
+                        <div class="price-wrapper ">
+                            <h3 class="price-title price-title-Turbo">
+                                Turbo
+                            </h3>
+                            <div class="price price-Turbo" style="text-align:justify">
+                                <div class="value-box value-box-Turbo">
+                                    <div class="value-box-content">
+                                        <span class="value">
+                                            <i>
+                                                $
+                                            </i>
+                                            <span class="number addspeed-Turbo">
+                                                69
+                                            </span>
+                                        </span>
+                                        <span class="meta ">
+                                            per month
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="content-box">
+                                    <ul data-product="200">
+                                        
+                                        <li class="price-speed">
+                                            50
+                                            <span class="">
+                                                MBPS
+                                            </span>
+                                        </li>
+                                        <li class="price-summary">
+                                            Generous allowance, more than enough for light users
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="meta-box">
+                                    <a class="btn btn-default" >
+                                        <span class="btext">
+                                            Select
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="push" style="height:10px">
+            </div>
+        </div>
+    </div>
+    <div class="sep">
+    </div>
+
+    <?php */?>
+    <div class="row has-price">
+        <div class="" id="phone">
+            <h2 class="textcenter">
+                2. Choose your phone plan:
+            </h2>
+            <div class="row has-price">
+                <div class="col-xs-10 col-xs-push-1  col-sm-8  col-sm-push-2  col-md-6 col-md-push-0">
+                    <div class="price-outer-wrapper option-NoPhone">
+                        <div class="price-wrapper ">
+                            <h3 class="price-title price-title-NoPhone">
+                                National Local
+                            </h3>
+                            <div class="price price-No Phone  inner-wrap style="text-align:justify">
+                                <div class="value-box value-box-NoPhone">
+                                    <div class="value-box-content">
+                                        <span class="value">
+                                            <i>
+                                                $
+                                            </i>
+                                            <span class="price-number addspeed-No Phone">
+                                                14
+                                            </span>
+                                        </span>
+                                        <span class="meta">
+                                            per month
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="content-box">
+                                    <ul>
+                                        <li class="price-summary">
+                                            Unlimited Local Calls with in Australia
+
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="meta-box">
+                                    <a class="btn btn-default" >
+                                        <span class="btext">
+                                            Select
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               <div class="col-xs-10 col-xs-push-1  col-sm-8  col-sm-push-2  col-md-6 col-md-push-0">
+                    <div class="price-outer-wrapper option-PAYG">
+                        <div class="price-wrapper ">
+                            <h3 class="price-title price-title-PAYG">
+                                National Premium
+                            </h3>
+                            <div class="price price-PAYG  inner-wrap" style="text-align:justify">
+                                <div class="value-box value-box-PAYG">
+                                    <div class="value-box-content">
+                                        <span class="value">
+                                            <i>
+                                                $
+                                            </i>
+                                            <span class="price-number addspeed-PAYG">
+                                                29
+                                            </span>
+                                        </span>
+                                        <span class="meta ">
+                                            per month
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="content-box">
+                                    <ul>
+                                        <li class="price-summary">
+                                            Unlimted Local Call and Mobile Calls
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="meta-box">
+                                    <a class="btn btn-default" >
+                                        <span class="btext">
+                                            Select
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="push" style="height:10px">
+            </div>
+        </div>
+    </div>
+    <div class="sep">
+    </div>
+    <div class="row has-price">
+        <div class="wpv-grid grid-1-1 wpv-first-level first unextended" id="phone" style="padding-top:0px;padding-bottom:0px">
+            <h2 class="textcenter">
+                3. Choose your Modem:
+            </h2>
+            <div class="row has-price">
+                <div class="col-xs-10 col-xs-push-1  col-sm-8  col-sm-push-2 col-md-4 col-md-push-0">
+                    <div class="price-outer-wrapper option-NoPhone">
+                        <div class="price-wrapper ">
+                            <h3 class="price-title price-title-NoPhone">
+                                No Modem
+                            </h3>
+                            <div class="price price-No Phone  inner-wrap" style="text-align:justify">
+                                <div class="value-box value-box-NoPhone">
+                                    <div class="value-box-content">
+                                        <span class="value">
+                                            <i>
+                                                $
+                                            </i>
+                                            <span class="price-number addspeed-No Phone">
+                                                0
+                                            </span>
+                                        </span>
+                                        <span class="meta invisible">
+                                            
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="meta-box">
+                                    <a class="btn btn-default">
+                                        <span class="btext">
+                                            Select
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-10 col-xs-push-1  col-sm-8  col-sm-push-2 col-md-4 col-md-push-0">
+                    <div class="price-outer-wrapper option-NoPhone">
+                        <div class="price-wrapper ">
+                            <h3 class="price-title price-title-NoPhone">
+                                NETCOMM NF17ACV
+                            </h3>
+                            <div class="price price-No Phone  inner-wrap" style="text-align:justify">
+                                <div class="value-box value-box-NoPhone">
+                                    <div class="value-box-content">
+                                        <span class="value">
+                                            <i>
+                                                $
+                                            </i>
+                                            <span class="price-number addspeed-No Phone">
+                                                149
+                                            </span>
+                                        </span>
+                                        <span class="meta invisible">
+                                            
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="meta-box">
+                                    <a class="btn btn-default mgt15">
+                                        <span class="btext">
+                                            Select
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-10 col-xs-push-1  col-sm-8  col-sm-push-2 col-md-4 col-md-push-0">
+                    <div class="price-outer-wrapper option-NoPhone">
+                        <div class="price-wrapper ">
+                            <h3 class="price-title price-title-NoPhone">
+                                NETCOMM NF17ACV
+                            </h3>
+                            <div class="price price-No Phone  inner-wrap" style="text-align:justify">
+                                <div class="value-box value-box-NoPhone">
+                                    <div class="value-box-content">
+                                        <span class="value">
+                                            <i>
+                                                $
+                                            </i>
+                                            <span class="price-number addspeed-No Phone">
+                                                199
+                                            </span>
+                                        </span>
+                                        <span class="meta invisible">
+                                            
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="meta-box">
+                                    <a class="btn btn-default mgt15">
+                                        <span class="btext">
+                                            Select
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
+            <div class="push" style="height:10px">
+            </div>
+        </div>
+    </div>
+    <div class="sep">
+    </div>
+
+
+
+    <div class="row ">
+        <div class="col-xs-10 col-xs-push-1  col-sm-8  col-sm-push-2 col-md-12 col-md-push-0">
+            <div class="row ">
+                <div class="wpv-grid grid-1-1 first unextended" id="wpv-column-356621ad40ca1b5ec781ced061edafa3" style="padding-top:0px;padding-bottom:0px">
+                    <h2 class="textcenter">
+                        4. Choose your contract length
+                    </h2>
+                </div>
+            </div>
+            <div class="row ">
+                <div class="col-xs-10 col-xs-push-1  col-sm-8  col-sm-push-2 col-md-12 col-md-push-0">
+                    <div class="setup-fees price">
+                        <div class="contract-length" data-id="8">
+                            No Contract
+                        </div>
+                        <div class="setup-cost" data-cost="79">
+                            $79
+                        </div>
+                         <div class="content-box">
+                                    <ul data-product="200">
+                                        <li class="price-summary">
+                                           No Annual Contract
+                                        </li>
+                                    </ul>
+                                </div>
+                        <div class="meta-box">
+                            <a class="btn btn-default">
+                                <span>
+                                    Select
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sep">
+    </div>
+  
+    <div class="row ">
+        <div class="inner-wrap nobdr" id="terms">
+            <h2 class="textcenter">
+                5. Product Information
+            </h2>
+            <div id="terms-wrapper">
+            </div>
+        </div>
+    </div>
+    <div class="sep">
+    </div>
+    <div class="row ">
+        <div class="inner-wrap nobdr" id="order-summary">
+            <h2 style="text-align: center;">
+                Your Order
+            </h2>
+            <div id="order-summary-wrapper">
+                <div class="left-side">
+                    <dl>
+                        <dt>
+                            Selected Plan:
+                        </dt>
+                        <dd id="selected-plan">
+                        </dd>
+                        <dt>
+                            Contract Length:
+                        </dt>
+                        <dd id="selected-contract">
+                        </dd>
+                        <dt>
+                            Addons:
+                        </dt>
+                        <dd id="selected-addons">
+                        </dd>
+                        <dt>
+                            Total Initial Cost:
+                        </dt>
+                        <dd id="initial-cost">
+                        </dd>
+                        <dt>
+                            Ongoing monthly fee:
+                        </dt>
+                        <dd id="ongoing-fee">
+                            $
+                            <span>
+                            </span>
+                            / month
+                        </dd>
+                    </dl>
+                </div>
+                <div class="order-right-side">
+                    <div id="order-total">
+                        Total Cost Today:
+                        <span id="cost-today">
+                            $165
+                        </span>
+                        <br>
+                            –
+                            <br>
+                                Ongoing
+                                <br>
+                                    Monthly Fee:
+                                    <br>
+                                        <span id="cost-monthly">
+                                            $
+                                        </span>
+                                        / Month
+                                    </br>
+                                </br>
+                            </br>
+                        </br>
+                    </div>
+                    <div id="order-button">
+                        <a class="btn btn-default">
+                            <span>
+                                Place order
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sep">
+    </div>
+</div>
+
+<style type="text/css">
+    
+    .price-outer-wrapper.selected .price {
+        background: #f7941e;
+    }
+</style>
+
+<script type="text/javascript">
+    
+     jQuery(document).ready(function(){
+         $('.button').click(function(){
+            html = $(this).closest('.row').find('.price-outer-wrapper').each(function(){
+                $(this).removeClass('selected');
+            });
+            $(this).closest('.price-outer-wrapper').addClass('selected');
+        });
+
+
+    });
+
+
+
+</script>

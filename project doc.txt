@@ -1,0 +1,5 @@
+Chandrama Handicraft
+Username: admin
+password: letmein10
+
+database: chandramahandicraft

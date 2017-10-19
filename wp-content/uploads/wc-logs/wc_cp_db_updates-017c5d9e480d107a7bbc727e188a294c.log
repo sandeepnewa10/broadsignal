@@ -1,0 +1,16 @@
+2017-10-04T00:27:15+00:00 INFO Updating to version 3.7.0.
+2017-10-04T00:27:15+00:00 INFO - Queuing wc_cp_update_370_main callback.
+2017-10-04T00:27:15+00:00 INFO - Queuing wc_cp_update_370_delete_unused_meta callback.
+2017-10-04T00:27:15+00:00 INFO Updating to version 3.8.0.
+2017-10-04T00:27:15+00:00 INFO - Queuing wc_cp_update_380_main callback.
+2017-10-04T00:27:15+00:00 INFO - Queuing wc_cp_update_380_delete_unused_meta callback.
+2017-10-04T00:27:16+00:00 INFO - Running wc_cp_update_370_main callback...
+2017-10-04T00:27:16+00:00 INFO - Finished wc_cp_update_370_main callback.
+2017-10-04T00:27:16+00:00 INFO - Running wc_cp_update_370_delete_unused_meta callback...
+2017-10-04T00:27:16+00:00 INFO - Finished wc_cp_update_370_delete_unused_meta callback.
+2017-10-04T00:27:16+00:00 INFO - Running wc_cp_update_380_main callback...
+2017-10-04T00:27:16+00:00 INFO - Finished wc_cp_update_380_main callback.
+2017-10-04T00:27:16+00:00 INFO - Running wc_cp_update_380_delete_unused_meta callback...
+2017-10-04T00:27:16+00:00 INFO - Finished wc_cp_update_380_delete_unused_meta callback.
+2017-10-04T00:27:16+00:00 INFO Data update complete.
+2017-10-04T00:27:16+00:00 INFO Database version is 3.11.3.
