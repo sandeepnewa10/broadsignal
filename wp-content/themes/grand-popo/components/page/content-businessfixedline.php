@@ -566,8 +566,50 @@
                 2.  Add your Home Line:
             </h2>
             <div class="row has-price" >
-            
-                <div class="col-xs-10 col-xs-push-1  col-sm-8  col-sm-push-2  col-md-6 col-md-push-0">
+                <div class="col-xs-10 col-xs-push-1  col-sm-8  col-sm-push-2  col-md-4 col-md-push-0">
+                    <div class="price-outer-wrapper option-NoPhone">
+                        <div class="price-wrapper ">
+                           
+                            <div class="price price-No Phone  inner-wrap" style="text-align:justify">
+                             
+                                <div class="value-box value-box-NoPhone">
+                                    <h3 class="price-title price-title-NoPhone">
+                                Homeline
+                            </h3>
+                                    <div class="value-box-content">
+                                        <span class="value">
+                                            <i>
+                                                $
+                                            </i>
+                                            <span class="price-number  addspeed-No Phone">
+                                                0
+                                            </span>
+                                        </span>
+                                        <span class="meta">
+                                            per month
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="content-box">
+                                    <ul>
+                                        <li class="price-summary">
+                                            Unlimited Local Calls with in Australia
+
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="meta-box">
+                                    <a class="btn btn-default scrollable-btn"  data-action="phone"  data-value="14" data-type="National Premium">
+                                        <span class="btext">
+                                            Select
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-10 col-xs-push-1  col-sm-8  col-sm-push-2  col-md-4 col-md-push-0">
                     <div class="price-outer-wrapper option-NoPhone">
                         <div class="price-wrapper ">
                            
@@ -594,7 +636,7 @@
                                 <div class="content-box">
                                     <ul>
                                         <li class="price-summary">
-                                            Unlimited Locals Call with in Australia
+                                            Unlimited Local Calls with in Australia
 
                                         </li>
                                     </ul>
@@ -610,7 +652,7 @@
                         </div>
                     </div>
                 </div>
-               <div class="col-xs-10 col-xs-push-1  col-sm-8  col-sm-push-2  col-md-6 col-md-push-0">
+               <div class="col-xs-10 col-xs-push-1  col-sm-8  col-sm-push-2  col-md-4 col-md-push-0">
                     <div class="price-outer-wrapper option-PAYG">
                         <div class="price-wrapper ">
                            
@@ -618,7 +660,7 @@
                             
                                 <div class="value-box value-box-PAYG">
                                      <h3 class="price-title price-title-PAYG">
-                                National Premium
+                                National Premium in Australia
                             </h3>
                                     <div class="value-box-content">
                                         <span class="value">
@@ -637,7 +679,7 @@
                                 <div class="content-box">
                                     <ul>
                                         <li class="price-summary">
-                                            Unlimted Local Call and Mobile Call  with in Australia
+                                            Unlimted Local Call and Mobile Call
                                         </li>
                                     </ul>
                                 </div>

@@ -122,16 +122,19 @@ body.home .site-content{
 #nav span.contactinfo a:hover{ text-decoration: none; border: 0; }
 #nav  .navbar-nav > li .caret{border: 0;}
 /*#nav .navbar-collapse{padding-left:0; padding-right: 0;}*/
-.dropdown:hover .dropdown-menu {
-    display: block;
-}
 
 
 section {
  transition: all 0.3s ease-in-out;
 }
 
+
+  .dropdown:hover .dropdown-menu {
+    display: block;
+}
+
 @media only screen and (max-width: 768px) {
+
     #nav .navbar-collapse{
       padding-bottom: 20px;
     }
@@ -717,7 +720,8 @@ h3.price-title{ margin-bottom: 25px; font-size: 20px; color:#fff; margin-bottom:
 .rocket .inner-wrap { border:1px solid #1f8a70; margin-bottom: 25px;}
 .rocket .inner-wrap .value-box{ background:#1f8a70; overflow:  hidden;  padding: 15px 30px;}
 
-
+.inner-wrap .content-box.small ul li{ min-height: auto;  text-align: center; border: 0; font-size: 14px; }
+.inner-wrap .content-box.small ul li:last-child{border-bottom: 1px solid #c7c7c7; padding-bottom: 20px;}
 
 
 
