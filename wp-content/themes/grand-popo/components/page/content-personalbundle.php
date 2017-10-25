@@ -321,7 +321,7 @@
                                     </ul>
                                 </div>
                                 <div class="meta-box">
-                                    <a class="btn btn-default scrollable-btn" data-action="plan"  data-value="79" data-type="Booster Extra Large">
+                                    <a class="btn btn-default scrollable-btn" data-action="plan"  data-value="89" data-type="Booster Extra Large">
                                         <span class="btext">
                                             Select
                                         </span>
@@ -540,7 +540,7 @@
                                     </ul>
                                 </div>
                                 <div class="meta-box">
-                                    <a class="btn btn-default scrollable-btn" data-action="plan"  data-value="120" data-type="Rocket Extra Large">
+                                    <a class="btn btn-default scrollable-btn" data-action="plan"  data-value="99" data-type="Rocket Extra Large">
                                         <span class="btext">
                                             Select
                                         </span>
@@ -710,7 +710,7 @@ No one misses out on internet time</p>
                                 </div></div>
 
                                 <div class="meta-box mgt15">
-                                    <a class="btn btn-default scrollable-btn" data-action="modem"  data-value="0" data-type="No Modem">
+                                    <a class="btn btn-default scrollable-btn" data-action="modem"  data-value="178" data-type="No Modem">
                                         <span class="btext">
                                             Select
                                         </span>
@@ -720,76 +720,7 @@ No one misses out on internet time</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-10 col-xs-push-1  col-sm-8  col-sm-push-2 col-md-4 col-md-push-0" style="display: none;">
-                    <div class="price-outer-wrapper option-NoPhone">
-                        <div class="price-wrapper ">
-                           
-                            <div class="price price-No Phone  inner-wrap" style="text-align:justify">
-                            
-                                <div class="value-box value-box-NoPhone">
-                                     <h3 class="price-title price-title-NoPhone">
-                                NETCOMM NF17ACV
-                            </h3>
-                                    <div class="value-box-content">
-                                        <span class="value">
-                                            <i>
-                                                $
-                                            </i>
-                                            <span class="price-number addspeed-No Phone">
-                                                149
-                                            </span>
-                                        </span>
-                                        <span class="meta invisible">
-                                            
-                                        </span>
-                                    </div>
-                                </div>
-                                <div class="meta-box">
-                                    <a class="btn btn-default  scrollable-btn"  data-action="modem"  data-value="169" data-type="NETCOMM NF17ACV">
-                                        <span class="btext">
-                                            Select
-                                        </span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-10 col-xs-push-1  col-sm-8  col-sm-push-2 col-md-4 col-md-push-0" style="display: none;">
-                    <div class="price-outer-wrapper option-NoPhone">
-                        <div class="price-wrapper ">
-                            
-                            <div class="price price-No Phone  inner-wrap" style="text-align:justify">
-                           
-                                <div class="value-box value-box-NoPhone">
-                                     <h3 class="price-title price-title-NoPhone">
-                                NETCOMM NF17ACV
-                            </h3>
-                                    <div class="value-box-content">
-                                        <span class="value">
-                                            <i>
-                                                $
-                                            </i>
-                                            <span class="price-number addspeed-No Phone">
-                                                199
-                                            </span>
-                                        </span>
-                                        <span class="meta invisible">
-                                            
-                                        </span>
-                                    </div>
-                                </div>
-                                <div class="meta-box">
-                                    <a class="btn btn-default scrollable-btn" data-action="modem" data-value="199" data-type="NETCOMM NF17ACV" >
-                                        <span class="btext">
-                                            Select
-                                        </span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+         
                
             </div>
             <div class="push" style="height:10px">
@@ -811,8 +742,7 @@ No one misses out on internet time</p>
             </div>
         </div>
     </div>
-    <div class="sep" style="display: none;">
-    </div>
+ 
     <div class="row step-wrapper ">
         <div class="inner-wrap nobdr"" id="order-summary">
             <h2 style="text-align: center;">
@@ -828,7 +758,7 @@ No one misses out on internet time</p>
 
 
 <div class="form-group col-sm-12">
-    <label class="col-sm-4 control-label"> Selected Plan:</label>
+    <label class="col-sm-4 control-label">Selected Data Plan:</label>
     <div class="col-sm-8">
       <span id="selected-plan">
                         </span>
@@ -837,7 +767,56 @@ No one misses out on internet time</p>
 
 
 
-  <div class="form-group col-sm-12">
+<div class="form-group col-sm-12">
+    <label class="col-sm-4 control-label">Selected Home line:</label>
+    <div class="col-sm-8">
+      <span id="selected-phone">
+                        </span>
+    </div>
+  </div>
+
+
+<div class="form-group col-sm-12">
+    <label class="col-sm-4 control-label">Monthly Charge:</label>
+    <div class="col-sm-8">
+      <span id="monthly-charge">
+                        </span>
+    </div>
+  </div>
+
+
+<div class="form-group col-sm-12">
+    <label class="col-sm-4 control-label">Activation Fee:</label>
+    <div class="col-sm-8">
+      <span>$ 79
+                        </span>
+    </div>
+  </div>
+
+
+<div class="form-group col-sm-12">
+    <label class="col-sm-4 control-label">Modem:</label>
+    <div class="col-sm-8">
+      <span>$179
+                        </span>
+    </div>
+  </div>
+
+
+<div class="form-group col-sm-12">
+    <label class="col-sm-4 control-label">Total Payment required today:</label>
+    <div class="col-sm-8">
+      <span id="total-payment">
+                        </span>
+    </div>
+  </div>
+
+
+
+
+
+
+  <div class="form-group col-sm-12" style="display: none;">
     <label class="col-sm-4 control-label">Monthly:</label>
     <div class="col-sm-8">
       <span id="selected-contract">
@@ -849,19 +828,10 @@ No one misses out on internet time</p>
 
 
 
+
+
+
 <div class="form-group col-sm-12" style="display: none;">
-    <label class="col-sm-4 control-label">Addons:</label>
-    <div class="col-sm-8">
-      <span id="selected-addons">
-                        </span>
-    </div>
-  </div>
-
-
-
-
-
-<div class="form-group col-sm-12">
     <label class="col-sm-4 control-label">Total Initial Cost:</label>
     <div class="col-sm-8">
     <span id="">
@@ -876,7 +846,7 @@ No one misses out on internet time</p>
 
 
 
-<div class="form-group col-sm-12">
+<div class="form-group col-sm-12" style="display: none;">
     <label class="col-sm-4 control-label">Ongoing monthly fee:</label>
     <div class="col-sm-8">
       <span id="">
@@ -890,7 +860,7 @@ No one misses out on internet time</p>
 
 
 
-<div class="form-group col-sm-12">
+<div class="form-group col-sm-12" style="display: none;">
     <label class="col-sm-4 control-label"  id="order-total">Modem $169 + Freight  $9:</label>
     <div class="col-sm-8"><span id="">
                              $
@@ -1047,6 +1017,7 @@ No one misses out on internet time</p>
             }
 
 
+            /*
             console.log(bill);
             $('#selected-plan').html(bill.plan.type);
             $('#selected-contract').html(bill.contract.type);
@@ -1057,6 +1028,15 @@ No one misses out on internet time</p>
 
             
             $('#cost-monthly').html(  Number(bill.phone.price) +  Number(bill.plan.price));
+
+            */
+            console.log(bill);
+            $('#selected-plan').html(bill.plan.price);
+            $('#selected-phone').html(bill.phone.price);
+            $('#monthly-charge').html( Number(bill.plan.price) + Number (bill.phone.price));
+            $('#total-payment').html( Number(79) + Number (179));
+
+
 
             //offset to the next div
             // next wrapper
