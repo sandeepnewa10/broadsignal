@@ -19,7 +19,7 @@ if(isset($_POST['submit'])) {
 </div>
 <div class="row">
 <form method="post" action="<?php echo the_permalink(); ?>" >
-<div class="col-md-6 col-md-push-3 col-sm-8 col-sm-push-2">
+<div class="col-md-10 col-md-push-1 col-sm-12">
 <div class="input-group">
  
   <input type="text" class="address_field form-control" name="address_check" value="<?php echo esc_attr($_POST['address_check']); ?>">

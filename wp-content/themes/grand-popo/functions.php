@@ -637,10 +637,11 @@ function grand_popo_get_page_title() {
 
                     <?php
                 } elseif (is_single()) {
-                    ?>
+                     ?>
                     <header class="page-header">
                         <h1 class="">
-                            <?php esc_html_e('BLOG DETAIL', 'grand-popo'); ?>
+                            <?php //esc_html_e('BLOG DETAIL', 'grand-popo'); ?>
+                            <?php the_title(); ?>
                         </h1>
 
                         <?php grand_popo_breadcrumbs(); ?>
@@ -2067,23 +2068,59 @@ function prefix_send_email_to_admin() {
     // Send to appropriate email
     // 
     
-    $html  = "First Name: " . $_POST['firstname'] . "<br />";
-    $html .= "Last Name: " . $_POST['lastname'] . "<br />";
-    $html .= "Password: " . $_POST['password']. "<br />";
-    $html .= "Address Line 1: " . $_POST['address1']. "<br />";
-    $html .= "Address Line 2: " . $_POST['address2']. "<br />";
-    $html .= "Suburb: " . $_POST['suburb']. "<br />";
-    $html .= "Postal Code: " . $_POST['postalcode']. "<br />";
-    $html .= "State: " . $_POST['state']. "<br />";
-
-    $html .= "<h2>Order Details</h2>";
-    $html .= $_POST['orderdetails'];
+    // $html  = "First Name: " . $_POST['firstname'] . "<br />";
+    // $html .= "Last Name: " . $_POST['lastname'] . "<br />";
+    // $html .= "Email: " . $_POST['email']. "<br />";
+    // $html .= "Mobile: " . $_POST['mobile']. "<br />";
+    // $html .= "Phone: " . $_POST['phone-area-number']. " " . $_POST['phone-line-number'] ." <br />";
 
 
-    $to      = 'jems.khadgi@gmail.com';
+    // $html .= "Address Line 1: " . $_POST['address1']. "<br />";
+    // $html .= "Address Line 2: " . $_POST['address2']. "<br />";
+    // $html .= "Suburb: " . $_POST['suburb']. "<br />";
+    // $html .= "Postal Code: " . $_POST['postalcode']. "<br />";
+    // $html .= "State: " . $_POST['state']. "<br />";
+
+    // $html .= "<h2>Order Details</h2>";
+    // $html .= $_POST['orderdetails'];
+
+    ob_start();
+    require "components/email/order.php";
+    $template = ob_get_contents();
+    ob_end_clean();
+    // $template = file_get_contents("components/email/order.php");
+    $template = stripcslashes($template);
+    $variables = array();
+    $variables['firstname'] = $_POST['firstname'];
+    $variables['lastname'] = $_POST['lastname'];
+    $variables['email'] = $_POST['email'];
+    $variables['mobile'] = $_POST['mobile'];
+    $variables['phone'] = $_POST['phone-area-number']. " " . $_POST['phone-line-number'];
+    $variables['address1'] = $_POST['address1'];
+    $variables['address2'] = $_POST['address2'];
+    $variables['suburb'] = $_POST['suburb'];
+    $variables['postal'] = $_POST['postalcode'];
+    $variables['state'] = $_POST['state'];
+    $variables['orderdetails'] = $_POST['orderdetails'];
+
+
+
+    foreach($variables as $key => $value)
+    {
+        $template = str_replace('{{ '.$key.' }}', $value, $template);
+    }
+
+
+    // $template = $html;
+   
+    var_dump($template);
+
+    $to      = 'jems.khadgi@gmail.com, sandeepnewa@gmail.com';
     $subject = 'New Order Details - '. $_POST['firstname'] . ' ' . $_POST['lastname'];
-    $message = $html;
-    $headers = 'From: webmaster@broadsignal.com.au' . "\r\n" .
+    $message = $template;
+    $headers  = 'MIME-Version: 1.0' . "\r\n";
+    $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
+    $headers .= 'From: webmaster@broadsignal.com.au' . "\r\n" .
         'Reply-To: webmaster@broadsignal.com.au' . "\r\n" .
         'X-Mailer: PHP/' . phpversion();
 
@@ -2091,10 +2128,12 @@ function prefix_send_email_to_admin() {
 
 
     $response = ['status' => 'success', 'data'=> ['url'=> ''], 'message'=>'Order Successfully sent'];
-    return $response;
+    echo  json_encode($response);
+    die();
 }
 add_action( 'wp_ajax_order_form', 'prefix_send_email_to_admin' );
 add_action( 'wp_ajax_nopriv_order_form', 'prefix_send_email_to_admin' );
+
 
 
 

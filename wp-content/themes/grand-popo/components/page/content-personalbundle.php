@@ -991,7 +991,28 @@ No one misses out on internet time</p>
      jQuery(document).ready(function(){
 
          $('.scrollable-btn').click(function(){
-            html = $(this).closest('.row').find('.price-outer-wrapper').each(function(){
+            var btnVal = $(this).find('span').html();
+
+            console.log(btnVal);
+            
+            btnVal = $.trim(btnVal);
+            var btnVal = $.trim(btnVal);
+            console.log(btnVal);
+
+
+            if(btnVal == 'Select' ){
+                $(this).find('span').html('Selected');
+            }else{
+                 $(this).find('span').html('Select');
+            }
+
+            html = $(this).closest('.row').find('.btext').each(function(){
+               
+                $(this).html('Select');
+            });
+
+            $(this).closest('.row').find('.price-outer-wrapper').each(function(){
+               
                 $(this).removeClass('selected');
             });
             $(this).closest('.price-outer-wrapper').addClass('selected');
@@ -1001,7 +1022,7 @@ No one misses out on internet time</p>
             price = $(this).attr('data-value');
             type = $(this).attr('data-type');
 
-            console.log(action + price + type);
+            //console.log(action + price + type);
             if(action=='plan'){
                 bill.plan.price = price;
                 bill.plan.type = type;
@@ -1030,7 +1051,7 @@ No one misses out on internet time</p>
             $('#cost-monthly').html(  Number(bill.phone.price) +  Number(bill.plan.price));
 
             */
-            console.log(bill);
+            //console.log(bill);
             $('#selected-plan').html(bill.plan.price);
             $('#selected-phone').html(bill.phone.price);
             $('#monthly-charge').html( Number(bill.plan.price) + Number (bill.phone.price));
