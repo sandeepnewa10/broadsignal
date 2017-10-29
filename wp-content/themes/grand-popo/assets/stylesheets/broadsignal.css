@@ -17,8 +17,11 @@ body {
   font-size: 1.4rem;
   /* =14px */
   padding-top: 99px;
-}
 
+}
+body.kc-css-system .kc-css-589530{
+  color: #7a7a7a!important;
+}
 body.home .site-wrap {
   width: 100%;
   max-width: 100%;
@@ -854,8 +857,8 @@ ul.footer-menu li:hover ul {
 }
 
 
-
-
+.modal-dialog .model-content .modal-header h4{ color: #7177bf!important; font-weight: 400; }
+.modal-dialog .model-content .model-body{ color: #7a7a7a!important; }
 
 /* ie needs position:relative here*/
 
@@ -1281,7 +1284,7 @@ h3.price-title {
 }
 
 
-
+#order-summary-wrapper ul { margin-left: 10px!important; }
 
 
 

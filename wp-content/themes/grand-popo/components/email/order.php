@@ -81,7 +81,7 @@
         padding-top: 20px;
         }
         .header-section .logo {
-        max-width: 300px;
+        max-width: 250px;
         margin-left: auto;
         margin-right: auto;
         }
@@ -106,7 +106,7 @@
         }
         .customer-info .col-row .col-left {
         float: left;
-        width: 230px;
+        width: 150px;
         font-family: 'Open Sans', sans-serif;
         font-weight: 600;
         }
@@ -121,7 +121,7 @@
         .order-info .col-row .col-left,
         .order-info .col-sm-4 {
         float: left;
-        width: 230px;
+        width: 150px;
         font-family: 'Open Sans', sans-serif;
         font-weight: 600;
         }
@@ -149,7 +149,7 @@
         margin-bottom: 10px; }
         .order-info>div> label{
         float: left;
-        width: 230px;
+        width: 150px;
         font-family: 'Open Sans', sans-serif;
         font-weight: 600;
         }
@@ -164,11 +164,11 @@
 </head>
 
 <body>
-    <table cellpadding="0" cellspacing="0" align="center" width="600" border="0" class="  main-wrapper">
+    <table cellpadding="0" cellspacing="0" align="left" width="600" border="0" class="  main-wrapper">
         <tbody>
             <tr>
                 <td>
-                    <table cellpadding="0" cellspacing="0" align="center" border="0">
+                    <table cellpadding="0" cellspacing="0" align="left" border="0">
                         <tbody>
                             <tr style="height: 20px;">
                                 <td width="20px" class="  left-border">
