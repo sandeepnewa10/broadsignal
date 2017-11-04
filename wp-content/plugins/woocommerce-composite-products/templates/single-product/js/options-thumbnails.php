@@ -19,7 +19,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 ?><script type="text/template" id="tmpl-wc_cp_options_thumbnails">
 	<# if ( data.length > 0 ) { #>
-		<ul class="dinkar component_option_thumbnails_container cp_clearfix" style="list-style:none">
+		<ul class="component_option_thumbnails_container cp_clearfix" style="list-style:none">
 			<# for ( var index = 0; index <= data.length - 1; index++ ) { #>
 				<li id="component_option_thumbnail_container_{{ data[ index ].option_id }}" class="component_option_thumbnail_container {{ data[ index ].outer_classes }}">
 					<div id="component_option_thumbnail_{{ data[ index ].option_id }}" class="cp_clearfix component_option_thumbnail {{ data[ index ].inner_classes }}" data-val="{{ data[ index ].option_id }}">

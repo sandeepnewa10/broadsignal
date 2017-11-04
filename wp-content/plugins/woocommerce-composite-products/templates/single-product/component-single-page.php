@@ -18,9 +18,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 ?><div id="component_<?php echo $component_id; ?>" class="<?php echo esc_attr( implode( ' ', $component_classes ) ); ?>" data-nav_title="<?php echo esc_attr( $component->get_title( true ) ); ?>" data-item_id="<?php echo $component_id; ?>" style="display:none;">
 
-	<div class="component_title_wrapper">
-		
-		<?php
+	<div class="component_title_wrapper"><?php
 
 		$title = $component->get_title( true );
 
