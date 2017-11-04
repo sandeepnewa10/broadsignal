@@ -51,21 +51,18 @@ if(isset($_POST['submit'])) {
           $wp_session['nbn_product_message'] = "Congratulations!!! Your address has NBN Technologies available. Please select the plans";
 
       ?>
-        window.setTimeout(function(){
-          window.location.href = "<?php echo 'http://demo.broadsignal.com.au/?nbnproducts=personal-bundle'; ?>";
+      window.setTimeout(function(){
 
-        }, 5000);
+        // Move to a new location or you can do something else
+        // 
+        
+
+        window.location.href = "<?php echo 'http://demo.broadsignal.com.au/?nbnproducts=personal-bundle'; ?>";
+
+      }, 5000);
       <?php    
-        } else {
+        }
       ?>
-        window.setTimeout(function(){
-          window.location.href = "<?php echo 'http://demo.broadsignal.com.au/?page_id=460'; ?>";
-
-        }, 5000);
-      <?php    
-        } 
-      ?>
-
      	$('#myModal').modal();	
     });
      </script>

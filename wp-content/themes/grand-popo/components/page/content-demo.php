@@ -1,4 +1,7 @@
 <?php
+//global $wp_session;
+$wp_session = WP_Session::get_instance();
+
 $column_class_array = array(
     5 => 'col2-column',
     2 => 'col-xs-12  col-sm-6  col-md-6',
@@ -24,6 +27,13 @@ endif;
         'after'  => '</div>',
         ) );
         ?>
+
+        <?php  if(isset($wp_session['nbn_product_message'])): ?>
+        <div class="message">
+            <?php echo $wp_session['nbn_product_message'] ; ?>
+            <?php unset($wp_session['nbn_product_message']); ?>
+        </div>
+        <?php endif; ?>
     </div>
     <footer class="entry-footer">
         <?php
@@ -67,7 +77,7 @@ endif;
                                     <?php the_sub_field('content_box'); ?>
                                 </div>
                                 <div class="meta-box">
-                                    <a class="btn btn-default scrollable-btn" data-step="<?php echo $step_no; ?>" data-interval="<?php the_sub_field('interval');  ?>" data-action="plan"  data-value="<?php the_sub_field('price');  ?>" data-description = "<?php the_sub_field('short_description'); ?>"  data-type="<?php  echo $step_type; ?>">
+                                    <a class="btn btn-default scrollable-btn" data-step="<?php echo $step_no; ?>" data-interval="<?php the_sub_field('interval');  ?>" data-value="<?php the_sub_field('price');  ?>" data-description = "<?php the_sub_field('short_description'); ?>"  data-type="<?php  echo $step_type; ?>">
                                         <span class="btext">
                                             Select
                                         </span>
@@ -132,7 +142,7 @@ endif;
                  
                     <div class="form-group col-sm-12">
                         <label class="col-sm-4 control-label">
-                            Modem $169
+                           Modem NF18ACV
                         </label>
                         <div class="col-sm-8">
                             <span id="modem-total">
@@ -167,11 +177,18 @@ endif;
                             </span>
                         </div>
                     </div>
+                     <div class="form-group col-sm-12">
+                        <label class="col-sm-12 control-label">
+                            <a href="http://demo.broadsignal.com.au/wp-content/uploads/2017/11/VOIP-International-Call-Rates.pdf" target="_blank">International Call Rates PDF</a>
+                        </label>
+                        
+                    </div>
                 </div>
                 <div class="order-right-side col-md-6" id="order-button">
                     <form action="<?php echo esc_url(admin_url('admin-ajax.php')); ?>" id="form" method="post">
                         <input name="action" type="hidden" value="order_form">
                         <input class="form-control" id="orderdetails" name="orderdetails" type="hidden">
+                        <input class="form-control" id="product" name="product" type="hidden" value="<?php the_title(); ?>">
                         <div class="form-group col-sm-6 col-md-6">
                             <label for="firstname">
                                 First Name
@@ -270,8 +287,7 @@ endif;
             </div>
         </div>
     </div>
-    <div class="sep">
-    </div>
+   
     <?php endif; ?>
 
 
@@ -307,7 +323,7 @@ plans['<?php echo  $steps++ ?>'] = {
     selected: false
 }
 <?php endwhile; ?>
-console.log(plans);
+
     
 jQuery(document).ready(function() {
     $('.scrollable-btn').click(function() {
@@ -315,8 +331,6 @@ jQuery(document).ready(function() {
         
         btnvalue = $(this).find('span').html();
         btnvalue = $.trim(btnvalue);
-
-
         step = $(this).attr('data-step');
 
     
@@ -353,8 +367,6 @@ jQuery(document).ready(function() {
         }
         $(this).find('span').html(btnvalue);
 
-
-            console.log(step);
         if (btnvalue == 'Select'){
             reset_step(step);
         } else {
@@ -403,6 +415,7 @@ function calculate_price() {
     plan = '<ul>';
     modem = 0;
     setup = 79;
+    intialcost = 0;
     for (var i in plans) {
         if(plans[i].type == "plan" && plans[i].description != ''){
             plan += "<li>"+ plans[i].description + "</li>"
@@ -418,12 +431,13 @@ function calculate_price() {
     plan += '</ul>';
 
     total = Number(monthly) + Number(setup) + Number(modem);
+    initialcost = Number(setup) + Number(modem);
 
     $('#plans').html(plan);
     $('#monthly').html(monthly);
     $('#modem').html(modem);
     $('#setup').html(setup);
-    $('#initial-cost').html(total);
+    $('#initial-cost').html(initialcost);
 
     $('#package').val($('#order-details').html());
 

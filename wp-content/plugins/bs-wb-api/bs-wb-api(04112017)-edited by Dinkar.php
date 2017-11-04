@@ -17,8 +17,6 @@ define( 'BSWB__API_USER', 'gerry.travers' );
 define( 'BSWB__API_PWD', 'ovation62@' );
 define( 'BSWB__API_CREATE_REFRESH_TOKEN', 'https://api.wideband.net.au/prod/v1/token' );
 define( 'BSWB__API_AUTOCOMPLETE_GNAF', 'https://api.wideband.net.au/prod/v1/nbn/address/autocomplete' );
-define( 'BSWB__API_GNAF_TO_LOCATIONID', 'https://api.wideband.net.au/prod/v1/nbn/address/gnaf' );
-define( 'BSWB__API_SERVICE_QUALIFICATION', 'https://api.wideband.net.au/prod/v1/nbn/sq/by/locationid' );
 
 add_action( 'wp_enqueue_scripts', 'bswb_add_enqueue_script' );
 add_action('wp_footer', 'bswb_add_enqueue_footer_script');
@@ -164,7 +162,7 @@ class Bswb_Widget extends WP_Widget {
 		return $instance;
 	}
 
-	// API CONNECTION TO GATHER ADDRESSES FROM THE INPUT VALUE AND VERIFY IF QUALIFIED
+	// API CONNECTION TO GATHER ADDRESSES FROM THE INPUT VALUE
 	public function listGnafAddress($useradd) {
 		$this->checkAuthToken($this->authtoken);
 		if( empty($this->authtoken) ) {
@@ -192,24 +190,11 @@ class Bswb_Widget extends WP_Widget {
 			if(wp_remote_retrieve_response_code( $response ) == '200') {					
 				$listarr = $clean_response['hits'];
 				for($i=0; $i<count($listarr); $i++) {
+					//echo $listarr[$i]['address'];
 					if( $useradd == $listarr[$i]['address']) { //'106 WELWYN AVENUE, SALTER POINT WA'
 						$gnafid = $listarr[$i]['gnafId'];
-						//GET LOCATION ID USING THE API
-						$locationID = $this->getLocationID($gnafid);
-						if(($locationID != false) || ($locationID != null)) {
-							//GET ONLY SERVICE CLASS NUMBER DON'T BOTHER FOR OTHER DATAS
-							$serviceClassNumber = $this->getSQCN($locationID);
-							if(($serviceClassNumber != false) || ($serviceClassNumber != null)) {
-								//CHECK SERVICE CLASS NUMBER AND DO NEEDFUL
-								$invalidArr = array("10","999");
-								if(in_array($serviceClassNumber, $invalidArr)) {
-									return 0;
-									return "Address not found";
-								} else {
-									return 1;
-								}
-							}
-						}
+						return 1; 
+						return "Congratulations ... ". $gnafid;
 					}
 				}
 				return 0;
@@ -218,78 +203,12 @@ class Bswb_Widget extends WP_Widget {
 				return -1;
 				return $clean_response['error'];
 			}
+
+		   	// get status and then check for errors
+		   	//echo $this->dropForm($clean_response['hits']);
 		}
 	}
 
-	// GET LOCATION ID FROM GNAF ADDRESS
-	public function getLocationID($gnafadd) {
-		$this->checkAuthToken($this->authtoken);
-		if( empty($this->authtoken) ) {
-			return "Something went wrong";
-		}
-
-		$url = BSWB__API_GNAF_TO_LOCATIONID;
-		$response = wp_remote_post( $url, array(
-						'method' => 'POST',
-						'timeout' => 45,
-						'redirection' => 5,
-						'httpversion' => '1.0',
-						'blocking' => true,
-						'headers' => array('Authorization' => 'Bearer '.$this->authtoken,
-										'Content-Type' => 'application/json'),
-						'body' => json_encode(array( 'gnafId' => $gnafadd )),
-						'cookies' => array()
-					    )
-					);
-		if ( is_wp_error( $response ) ) {
-		   	$error_message = $response->get_error_message();
-		   	return "Something went wrong: $error_message";
-		} else {
-			$clean_response = json_decode( wp_remote_retrieve_body( $response ), true) ;
-			if(wp_remote_retrieve_response_code( $response ) == '200') {					
-				$locID = $clean_response['nbnLocationId'];
-				return $locID;
-			} else {
-				return false;
-				return $clean_response['error'];
-			}
-		}
-	}
-
-	// GET SERVICE CLASS NUMBER FROM LOCATION ID
-	public function getSQCN($locationID) {
-		$this->checkAuthToken($this->authtoken);
-		if( empty($this->authtoken) ) {
-			return "Something went wrong";
-		}
-
-		$url = BSWB__API_SERVICE_QUALIFICATION;
-		$response = wp_remote_post( $url, array(
-						'method' => 'POST',
-						'timeout' => 45,
-						'redirection' => 5,
-						'httpversion' => '1.0',
-						'blocking' => true,
-						'headers' => array('Authorization' => 'Bearer '.$this->authtoken,
-										'Content-Type' => 'application/json'),
-						'body' => json_encode(array( 'nbnLocationId' => $locationID )),
-						'cookies' => array()
-					    )
-					);
-		if ( is_wp_error( $response ) ) {
-		   	$error_message = $response->get_error_message();
-		   	return "Something went wrong: $error_message";
-		} else {
-			$clean_response = json_decode( wp_remote_retrieve_body( $response ), true) ;
-			if(wp_remote_retrieve_response_code( $response ) == '200') {					
-				$serviceClassNumber = $clean_response['serviceClassNumber'];
-				return $serviceClassNumber;				
-			} else {
-				return false;
-				return $clean_response['error'];
-			}
-		}
-	}
 
 	// CHECK AUTH TOKEN AND REFRESH IF NEEDED
 	public function checkAuthToken($autok='') {

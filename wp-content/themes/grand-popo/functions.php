@@ -2057,33 +2057,7 @@ require_once('wp-bootstrap-navwalker.php');
 
 /*** CUSTOM FUNCTIONS ADDED **/
 function prefix_send_email_to_admin() {
-    /**
-     * At this point, $_GET/$_POST variable are available
-     *
-     * We can do our normal processing here
-     */ 
-
-    // Sanitize the POST field
-    // Generate email content
-    // Send to appropriate email
-    // 
-    
-    // $html  = "First Name: " . $_POST['firstname'] . "<br />";
-    // $html .= "Last Name: " . $_POST['lastname'] . "<br />";
-    // $html .= "Email: " . $_POST['email']. "<br />";
-    // $html .= "Mobile: " . $_POST['mobile']. "<br />";
-    // $html .= "Phone: " . $_POST['phone-area-number']. " " . $_POST['phone-line-number'] ." <br />";
-
-
-    // $html .= "Address Line 1: " . $_POST['address1']. "<br />";
-    // $html .= "Address Line 2: " . $_POST['address2']. "<br />";
-    // $html .= "Suburb: " . $_POST['suburb']. "<br />";
-    // $html .= "Postal Code: " . $_POST['postalcode']. "<br />";
-    // $html .= "State: " . $_POST['state']. "<br />";
-
-    // $html .= "<h2>Order Details</h2>";
-    // $html .= $_POST['orderdetails'];
-
+  
     ob_start();
     require "components/email/order.php";
     $template = ob_get_contents();
@@ -2094,6 +2068,7 @@ function prefix_send_email_to_admin() {
     $variables['firstname'] = $_POST['firstname'];
     $variables['lastname'] = $_POST['lastname'];
     $variables['email'] = $_POST['email'];
+    $variables['product'] = $_POST['product'];
     $variables['mobile'] = $_POST['mobile'];
     $variables['phone'] = $_POST['phone-area-number']. " " . $_POST['phone-line-number'];
     $variables['address1'] = $_POST['address1'];
@@ -2113,9 +2088,9 @@ function prefix_send_email_to_admin() {
 
     // $template = $html;
    
-    var_dump($template);
+    //var_dump($template);
 
-    $to      = 'jems.khadgi@gmail.com, sandeepnewa@gmail.com';
+    $to      = 'sandeepnewa@gmail.com, gtravers@broadsignal.com.au';
     $subject = 'New Order Details - '. $_POST['firstname'] . ' ' . $_POST['lastname'];
     $message = $template;
     $headers  = 'MIME-Version: 1.0' . "\r\n";
@@ -2128,11 +2103,61 @@ function prefix_send_email_to_admin() {
 
 
     $response = ['status' => 'success', 'data'=> ['url'=> ''], 'message'=>'Order Successfully sent'];
-    echo  json_encode($response);
+    //echo  json_encode($response);
+    echo 1;
     die();
 }
 add_action( 'wp_ajax_order_form', 'prefix_send_email_to_admin' );
 add_action( 'wp_ajax_nopriv_order_form', 'prefix_send_email_to_admin' );
+
+/*** CUSTOM FUNCTIONS ADDED **/
+function prefix_new_nbn_send_email_to_admin() {
+  
+    ob_start();
+    require "components/email/newnbn.php";
+    $template = ob_get_contents();
+    ob_end_clean();
+    // $template = file_get_contents("components/email/newnbn.php");
+    $template = stripcslashes($template);
+    $variables = array();
+    $variables['firstname'] = $_POST['firstname'];
+    $variables['lastname'] = $_POST['lastname'];
+    $variables['email'] = $_POST['email'];
+    $variables['product'] = $_POST['product'];
+    $variables['mobile'] = $_POST['mobile'];
+    $variables['phone'] = $_POST['phone-area-number']. " " . $_POST['phone-line-number'];
+    $variables['address1'] = $_POST['address1'];
+    $variables['address2'] = $_POST['address2'];
+    $variables['suburb'] = $_POST['suburb'];
+    $variables['postal'] = $_POST['postalcode'];
+    $variables['state'] = $_POST['state'];
+    
+
+    foreach($variables as $key => $value)
+    {
+        $template = str_replace('{{ '.$key.' }}', $value, $template);
+    }
+
+
+    $to      = 'jems.khadgi@gmail.com, sandeepnewa@gmail.com';
+    $subject = 'New NBN Request Details - '. $_POST['firstname'] . ' ' . $_POST['lastname'];
+    $message = $template;
+    $headers  = 'MIME-Version: 1.0' . "\r\n";
+    $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
+    $headers .= 'From: webmaster@broadsignal.com.au' . "\r\n" .
+        'Reply-To: webmaster@broadsignal.com.au' . "\r\n" .
+        'X-Mailer: PHP/' . phpversion();
+
+    mail($to, $subject, $message, $headers);
+
+
+    $response = ['status' => 'success', 'data'=> ['url'=> ''], 'message'=>'Order Successfully sent'];
+    //echo  json_encode($response);
+    echo 1;
+    die();
+}
+add_action( 'wp_ajax_nbnrequest_form', 'prefix_new_nbn_send_email_to_admin' );
+add_action( 'wp_ajax_nopriv_nbnrequest_form', 'prefix_new_nbn_send_email_to_admin' );
 
 
 

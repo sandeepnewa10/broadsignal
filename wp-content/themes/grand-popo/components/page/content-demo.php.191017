@@ -8,22 +8,18 @@
 
                 <!--- START OF SUPER  -->
                 <div class="col2-column">
-                    <div class="price-outer-wrapper option-S super">
+                    <div class="price-outer-wrapper option-S">
                         <div class="price-wrapper">
                            
                             <div class="price price-S  inner-wrap" style="text-align:justify">
                                 
                                 <div class="value-box value-box-S">
                                     <h3 class="price-title price-title-S">
-                                        Super
+                                        Super Extra Small
                                     </h3>
-                                    
 
                                 
                                     <div class="value-box-content">
-                                        <span class="meta ">
-                                                12/1 Mbps
-                                        </span>
                                         <span class="value">
                                             <i>
                                             </i>
@@ -32,7 +28,9 @@
                                             </span>
                                             
                                         </span>
-                                        
+                                        <span class="meta ">
+                                                12/1 Mbps
+                                        </span>
                                         <span class="value">
                                             <i>
                                                 $
@@ -65,18 +63,15 @@
                     </div>
                 </div>
                 <div class="col2-column">
-                    <div class="price-outer-wrapper option-S super">
+                    <div class="price-outer-wrapper option-S">
                         <div class="price-wrapper ">
                             <div class="price price-m  inner-wrap" style="text-align:justify">
                              
                                 <div class="value-box value-box-S">
                                     <h3 class="price-title price-title-S">
-                                Super
+                                Super Small
                             </h3>
                                     <div class="value-box-content">
-                                        <span class="meta ">
-                                                12/1 Mbps
-                                        </span>
                                         <span class="value">
                                             <i>
                                             </i>
@@ -84,7 +79,9 @@
                                                100 GB
                                             </span>
                                         </span>
-                                        
+                                        <span class="meta ">
+                                                12/1 Mbps
+                                        </span>
                                         <span class="value">
                                             <i>
                                                 $
@@ -121,19 +118,16 @@
 
                 <!--- START OF BOOSTER  -->
                 <div class="col2-column">
-                    <div class="price-outer-wrapper option-S booster">
+                    <div class="price-outer-wrapper option-S">
                         <div class="price-wrapper ">
                             
                             <div class="price price-m  inner-wrap" style="text-align:justify">
                            
                                 <div class="value-box value-box-S">
                                      <h3 class="price-title price-title-S">
-                                BOOSTER
+                                Booster Small
                             </h3>
                                     <div class="value-box-content">
-                                        <span class="meta ">
-                                                 25/5 Mbps
-                                        </span>
                                         <span class="value">
                                             <i>
                                             </i>
@@ -141,7 +135,9 @@
                                                100 GB
                                             </span>
                                         </span>
-                                        
+                                        <span class="meta ">
+                                                 25/5 Mbps
+                                        </span>
                                          <span class="value">
                                             <i>
                                                 $
@@ -173,19 +169,16 @@
                     </div>
                 </div>
                 <div class="col2-column">
-                    <div class="price-outer-wrapper option-L booster">
+                    <div class="price-outer-wrapper option-L">
                         <div class="price-wrapper ">
                             
                             <div class="price price-L  inner-wrap" style="text-align:justify">
                             
                                 <div class="value-box value-box-L">
                                     <h3 class="price-title price-title-L">
-                                booster
+                                Booster Medium
                             </h3>
                                     <div class="value-box-content">
-                                         <span class="meta">
-                                                25/5 Mbps
-                                        </span>
                                         <span class="value">
                                             <i>
                                             </i>
@@ -193,7 +186,9 @@
                                                 250 GB
                                             </span>
                                         </span>
-                                       
+                                        <span class="meta">
+                                                25/5 Mbps
+                                        </span>
 
                                         <span class="value">
                                             <i>
@@ -227,19 +222,16 @@
                     </div>
                 </div>
                 <div class="col2-column">
-                    <div class="price-outer-wrapper option-L booster">
+                    <div class="price-outer-wrapper option-L">
                         <div class="price-wrapper ">
                            
                             <div class="price price-xl  inner-wrap" style="text-align:justify">
                             
                                 <div class="value-box value-box-L">
                                      <h3 class="price-title price-title-L">
-                                booster
+                                Booster Large
                             </h3>
                                     <div class="value-box-content">
-                                        <span class="meta">
-                                                25/5 Mbps
-                                        </span>
                                         <span class="value">
                                             <i>
                                             </i>
@@ -247,7 +239,9 @@
                                                 500 GB
                                             </span>
                                         </span>
-                                        
+                                        <span class="meta">
+                                                25/5 Mbps
+                                        </span>
                                         <span class="value">
                                             <i>
                                                 $
@@ -280,19 +274,16 @@
                 </div>
 
                 <div class="col2-column">
-                    <div class="price-outer-wrapper option-L booster">
+                    <div class="price-outer-wrapper option-L">
                         <div class="price-wrapper ">
                            
                             <div class="price price-xl  inner-wrap" style="text-align:justify">
                              
                                 <div class="value-box value-box-L">
                                     <h3 class="price-title price-title-L">
-                                booster
+                                Booster Extra Large
                             </h3>
                                     <div class="value-box-content">
-                                        <span class="meta">
-                                                25/5 Mbps
-                                        </span>
                                         <span class="value">
                                             <i>
                                             </i>
@@ -300,13 +291,15 @@
                                                 1000 GB
                                             </span>
                                         </span>
-                                        
+                                        <span class="meta">
+                                                25/5 Mbps
+                                        </span>
                                         <span class="value">
                                             <i>
                                                 $
                                             </i>
                                             <span class="price-number price addspeed-Super">
-                                               89
+                                               79
                                             </span>
                                         </span>
                                         
@@ -316,7 +309,7 @@
                                     <ul>
                                         
                                         <li class="price-summary">
-                                            Our most popular speed, ideal for day to day use for the large family
+                                            Our most popular speed, ideal for day to day use fpr the large family
                                         </li>
                                     </ul>
                                 </div>
@@ -335,26 +328,25 @@
 
                 <!--- START  OF TURBO  -->
                 <div class="col2-column">
-                    <div class="price-outer-wrapper option-S turbo">
+                    <div class="price-outer-wrapper option-S">
                         <div class="price-wrapper ">
                            
                             <div class="price price-S  inner-wrap" style="text-align:justify">
                              
                                 <div class="value-box value-box-S">
                                     <h3 class="price-title price-title-S">
-                                turbo
+                                Turbo Small
                             </h3>
                                     <div class="value-box-content">
-                                        <span class="meta ">
-                                                50/25 Mbps
-                                        </span>
                                         <span class="value">
                                             <i>
                                             </i>
                                             <span class="number addspeed-S">
                                                 100 GB
                                             </span>
-                                            
+                                            <span class="meta ">
+                                                50/25 Mbps
+                                        </span>
                                             <i>
                                                 $
                                             </i>
@@ -386,19 +378,16 @@
                     </div>
                 </div>
                 <div class="col2-column">
-                    <div class="price-outer-wrapper option-S turbo">
+                    <div class="price-outer-wrapper option-S">
                         <div class="price-wrapper ">
                            
                             <div class="price price-m  inner-wrap" style="text-align:justify">
                              
                                 <div class="value-box value-box-S">
                                     <h3 class="price-title price-title-S">
-                                turbo
+                                Turbo Medium
                                 </h3>
                                     <div class="value-box-content">
-                                        <span class="meta ">
-                                                50/25 Mbps
-                                         </span>
                                         <span class="value">
                                             <i>
                                             </i>
@@ -406,7 +395,9 @@
                                                250 GB
                                             </span>
                                         </span>
-                                         
+                                         <span class="meta ">
+                                                50/25 Mbps
+                                         </span>
 
 
                                         <span class="value">
@@ -445,19 +436,16 @@
 
                 <!--- START OF ROCKET  -->
                 <div class="col2-column">
-                    <div class="price-outer-wrapper option-L rocket">
+                    <div class="price-outer-wrapper option-L">
                         <div class="price-wrapper ">
                            
                             <div class="price price-xl  inner-wrap" style="text-align:justify">
                              
                                 <div class="value-box value-box-L">
                                     <h3 class="price-title price-title-L">
-                                rocket
+                                Rocket Large
                             </h3>
                                     <div class="value-box-content">
-                                        <span class="meta">
-                                                100/40 Mbps
-                                        </span>
                                         <span class="value">
                                             <i>
                                             </i>
@@ -465,7 +453,9 @@
                                                 500 GB
                                             </span>
                                         </span>
-                                        
+                                        <span class="meta">
+                                                100/40 Mbps
+                                        </span>
                                         <span class="value">
                                             <i>
                                                 $
@@ -499,19 +489,16 @@
                     </div>
                 </div>
                 <div class="col2-column">
-                    <div class="price-outer-wrapper option-L rocket">
+                    <div class="price-outer-wrapper option-L">
                         <div class="price-wrapper ">
                            
                             <div class="price price-xl  inner-wrap" style="text-align:justify">
                              
                                 <div class="value-box value-box-L">
                                     <h3 class="price-title price-title-L">
-                                rocket
+                                Rocket Extra Large
                             </h3>
                                     <div class="value-box-content">
-                                        <span class="meta">
-                                               100/40 Mbps
-                                        </span>
                                         <span class="value">
                                             <i>
                                             </i>
@@ -519,7 +506,9 @@
                                                 1000 GB
                                             </span>
                                         </span>
-                                        
+                                        <span class="meta">
+                                               up to 50 Mbps
+                                        </span>
                                         <span class="value">
                                             <i>
                                                 $
@@ -535,7 +524,7 @@
                                     <ul>
                                         
                                         <li class="price-summary">
-                                        Perfect for the connected home who stream, surf and play games.
+                                        Perfect for the connected home
                                         </li>
                                     </ul>
                                 </div>
@@ -566,50 +555,7 @@
                 2.  Add your Home Line:
             </h2>
             <div class="row has-price" >
-                <div class="col-xs-10 col-xs-push-1  col-sm-8  col-sm-push-2  col-md-4 col-md-push-0">
-                    <div class="price-outer-wrapper option-NoPhone">
-                        <div class="price-wrapper ">
-                           
-                            <div class="price price-No Phone  inner-wrap" style="text-align:justify">
-                             
-                                <div class="value-box value-box-NoPhone">
-                                    <h3 class="price-title price-title-NoPhone">
-                                Homeline
-                            </h3>
-                                    <div class="value-box-content">
-                                        <span class="value">
-                                            <i>
-                                                $
-                                            </i>
-                                            <span class="price-number  addspeed-No Phone">
-                                                0
-                                            </span>
-                                        </span>
-                                        <span class="meta">
-                                            per month
-                                        </span>
-                                    </div>
-                                </div>
-                                <div class="content-box">
-                                    <ul>
-                                        <li class="price-summary">
-                                            Unlimited Local Calls with in Australia
-
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="meta-box">
-                                    <a class="btn btn-default scrollable-btn"  data-action="phone"  data-value="14" data-type="National Premium">
-                                        <span class="btext">
-                                            Select
-                                        </span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-10 col-xs-push-1  col-sm-8  col-sm-push-2  col-md-4 col-md-push-0">
+                <div class="col-xs-10 col-xs-push-1  col-sm-8  col-sm-push-2  col-md-6 col-md-push-0">
                     <div class="price-outer-wrapper option-NoPhone">
                         <div class="price-wrapper ">
                            
@@ -652,7 +598,7 @@
                         </div>
                     </div>
                 </div>
-               <div class="col-xs-10 col-xs-push-1  col-sm-8  col-sm-push-2  col-md-4 col-md-push-0">
+               <div class="col-xs-10 col-xs-push-1  col-sm-8  col-sm-push-2  col-md-6 col-md-push-0">
                     <div class="price-outer-wrapper option-PAYG">
                         <div class="price-wrapper ">
                            
@@ -660,7 +606,7 @@
                             
                                 <div class="value-box value-box-PAYG">
                                      <h3 class="price-title price-title-PAYG">
-                                National Premium in Australia
+                                National Premium
                             </h3>
                                     <div class="value-box-content">
                                         <span class="value">
@@ -679,7 +625,7 @@
                                 <div class="content-box">
                                     <ul>
                                         <li class="price-summary">
-                                            Unlimted Local Call and Mobile Call
+                                            Unlimted Local Call and Mobile Calls
                                         </li>
                                     </ul>
                                 </div>
@@ -715,7 +661,7 @@
                             
                                 <div class="value-box value-box-NoPhone">
                                     <h3 class="price-title price-title-NoPhone">
-                                Modem price is $169 + $9 freight.
+                                Modem price is $169 + freight.
                             </h3>
                                     <div class="value-box-content">
                                         <span class="value" style="display:none">
@@ -843,7 +789,7 @@ No one misses out on internet time</p>
 
 
 
-    <div class="row step-wrapper " id='internet-contract' style="display: none">
+    <div class="row step-wrapper " id='internet-contract'>
        <div class="wpv-grid grid-1-1 wpv-first-level first unextended" id="phone" style="padding-top:0px;padding-bottom:0px">
             <h2 class="textcenter">
                 4. Choose your Contract:
@@ -899,7 +845,7 @@ No one misses out on internet time</p>
             </div>
         </div>
     </div>
-    <div class="sep" style="display: none">
+    <div class="sep">
     </div>
   
      <div class="row  step-wrapper">
@@ -938,7 +884,7 @@ No one misses out on internet time</p>
 
 
   <div class="form-group col-sm-12">
-    <label class="col-sm-4 control-label">Monthly:</label>
+    <label class="col-sm-4 control-label">Contract Length:</label>
     <div class="col-sm-8">
       <span id="selected-contract">
                         </span>
@@ -949,7 +895,7 @@ No one misses out on internet time</p>
 
 
 
-<div class="form-group col-sm-12" style="display: none;">
+<div class="form-group col-sm-12">
     <label class="col-sm-4 control-label">Addons:</label>
     <div class="col-sm-8">
       <span id="selected-addons">
@@ -991,7 +937,7 @@ No one misses out on internet time</p>
 
 
 <div class="form-group col-sm-12">
-    <label class="col-sm-4 control-label"  id="order-total">Modem $169 + Freight  $9:</label>
+    <label class="col-sm-4 control-label"  id="order-total">Total Cost Today:</label>
     <div class="col-sm-8"><span id="">
                              $
                             <span id="cost-today">
@@ -1004,6 +950,16 @@ No one misses out on internet time</p>
 
 
 
+
+<div class="form-group col-sm-12">
+    <label class="col-sm-4 control-label">Ongoing Monthly Fee:</label>
+    <div class="col-sm-8">
+       <span id="cost-monthly">
+                                            $
+                                        </span>
+                                        / Month
+    </div>
+  </div>
 
 
 
@@ -1037,42 +993,21 @@ No one misses out on internet time</p>
                             </div>
                             <div class="form-group col-sm-6  col-md-6">
                             <label for="lastname">Last Name</label>
-                            <input type="text" name="lastname" class="form-control"  id="lastname" required>
-                            </div>
-                            <div class="form-group col-sm-12  col-md-12">
-                            <label for="email">Email Address</label>
-                            <input type="email" name="password" class="form-control"  id="password" required>
+                            <input type="text" name="lastname"class="form-control"  id="lastname" required>
                             </div>
                             <div class="form-group col-sm-6  col-md-6">
-                            <label for="mobile">Mobile Number</label>
-                            <input type="mobile" name="repassword" class="form-control"  id="repassword" required>
+                            <label for="password">Password</label>
+                            <input type="password" name="password"class="form-control"  id="password" required>
                             </div>
-
-
-
-
                             <div class="form-group col-sm-6  col-md-6">
-                            <label for="phone-area">Phone Number</label>
-                            <div class="row"><div class="form-group col-sm-4  col-md-4">
-                                
-                            <input type="phone-area-number" name="phone-area-number" class="form-control"  id="repassword" required>
-                            <label for="phone-area-number" style="font-size: 12px; font-weight:400;">Area Code</label>
-                             </div>
-                            <div class="form-group col-sm-8  col-md-18">
-                                 <input type="phone-line-number" name="phone-line-number" class="form-control"  id="repassword" required>
-                                 <label for="phone-line-number" style="font-size: 12px; font-weight:400;">Phone Number</label>
+                            <label for="repassword">Re Enter Password</label>
+                            <input type="password" name="repassword"class="form-control"  id="repassword" required>
                             </div>
-                            </div></div>
-
-
-
-
-
                             <div class="form-group col-sm-12 col-md-12">
                             <label for="Address1">Address Line 1</label>    
                             <input type="text" name="Address1" class="form-control" id="address1" required>
                             </div>
-                            <div class="form-group col-sm-12  col-md-12 mgt15">
+                            <div class="form-group col-sm-12  col-md-12">
                             <label for="address2">Address Line2</label>
                             <input type="text" name="address2" class="form-control" id="address2">
                             </div>
@@ -1096,7 +1031,7 @@ No one misses out on internet time</p>
 
                            
                             
-                            <div class="form-group col-sm-6  col-md-6 clearfix  mgt15"">
+                            <div class="form-group col-sm-6  col-md-6 clearfix">
                             <button  type="submit"  class="btn btn-default"> Place Order</button>
                             </div>
                             

@@ -188,7 +188,7 @@
                                         </header>
                                         <div class="  customer-info">
                                             <div class="  col-row">
-                                                <h2>Customer Details</h2>
+                                                <h2>New NBN request details</h2>
                                             </div>
                                             <div class="  col-row">
                                                 <div class="  col-left">First Name:</div>
@@ -230,12 +230,6 @@
                                                 <div class="  col-left">State:</div>
                                                 <div class="  col-right"> {{ state }}</div>
                                             </div>
-                                        </div>
-                                        <div class="  order-info">
-                                            <div class="col-row">
-                                                    <h2>Order Details -  {{ product }}</h2>
-                                                </div>
-                                            {{ orderdetails }}
                                         </div>
                                     </div>
                                 </td>

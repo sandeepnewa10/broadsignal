@@ -9,6 +9,7 @@
 * @package Grand-Popo
 */
 ?>
+<div class="sep"></div>
 </div>
 </div>
 <footer class="footer">

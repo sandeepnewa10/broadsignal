@@ -30,7 +30,7 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                             </button>
-                            <a class="navbar-brand" href="<?php bloginfo('url'); ?>"><img class="logo" src="<?php bloginfo('template_directory'); ?>/images/logo3.png" alt="" /></a>
+                            <a class="navbar-brand" href="<?php bloginfo('url'); ?>"><img class="logo" src="<?php bloginfo('template_directory'); ?>/images/logo.png" alt="" /></a>
                             <span class="contactinfo"><a href="tel:0884481120"><i class="fa fa-phone"></i>08 8448 1120</a></span>
                         </div>
                         <?php
