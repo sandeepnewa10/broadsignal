@@ -201,7 +201,7 @@ class Bswb_Widget extends WP_Widget {
 							$serviceClassNumber = $this->getSQCN($locationID);
 							if(($serviceClassNumber != false) || ($serviceClassNumber != null)) {
 								//CHECK SERVICE CLASS NUMBER AND DO NEEDFUL
-								$invalidArr = array("10","999");
+								$invalidArr = array("0","4","5","6","7","8","9","10","999");
 								if(in_array($serviceClassNumber, $invalidArr)) {
 									return 0;
 									return "Address not found";
