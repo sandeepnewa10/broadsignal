@@ -13,7 +13,7 @@ if(isset($_POST['submit'])) {
 
     if($response == 1){
       $hasError= false;
-      $message = "NBN Loading ...";
+      $message = "Congratulations";
     }elseif ($response == 0) {
       # code...
       $hasError = true;

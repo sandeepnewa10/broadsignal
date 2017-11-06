@@ -65,9 +65,6 @@ h1 {
 }
 
 
-
-
-
 /* =24px */
 
 .boxed {
@@ -131,10 +128,6 @@ body.home .site-content {
     -webkit-box-shadow: 0 8px 6px -10px #999;
     -moz-box-shadow: 0 8px 6px -10px #999;
     box-shadow: 0 8px 6px -10px #999;
-    /*-webkit-box-shadow: 0 8px 6px -6px #999;
-  -moz-box-shadow: 0 8px 6px -6px #999;
-  box-shadow: 0 8px 6px -6px #999;*/
-    /* the rest of your styling */
 }
 
 #nav .navbar-default {
@@ -227,14 +220,6 @@ body.home .site-content {
     border: 0;
 }
 
-
-
-
-
-
-
-/*#nav .navbar-collapse{padding-left:0; padding-right: 0;}*/
-
 section {
     transition: all 0.3s ease-in-out;
 }
@@ -253,8 +238,6 @@ section {
         float: none !important;
     }
 }
-
-
 
 
 
@@ -323,8 +306,6 @@ section {
 
 
 
-
-
 /*  ----------------------------------------------------------------
   Intro Banner
  -------------------------------------------------------------  */
@@ -370,11 +351,6 @@ section {
     background: rgba(113, 119, 191, 0.5);
     border-color: #7177bf;
 }
-
-
-
-
-
 
 
 /*  ----------------------------------------------------------------
@@ -423,11 +399,6 @@ section {
     color: #7a7a7a;
     line-height: 28px;
 }
-
-
-
-
-
 
 
 /*  ----------------------------------------------------------------
@@ -489,14 +460,6 @@ section {
 
 
 
-
-
-
-/*  ----------------------------------------------------------------
-  Check my address
- -------------------------------------------------------------  */
-
-
 /*  ----------------------------------------------------------------
   Video
  -------------------------------------------------------------  */
@@ -544,8 +507,6 @@ section {
         margin-bottom: 30px;
     }
 }
-
-
 
 
 
@@ -617,10 +578,6 @@ section {
 
 
 
-
-
-
-
 /*  ----------------------------------------------------------------
   NBN Simple
  -------------------------------------------------------------  */
@@ -640,10 +597,6 @@ section {
 
 
 
-
-
-
-
 /*  ----------------------------------------------------------------
   Front page -Product
  -------------------------------------------------------------  */
@@ -652,11 +605,6 @@ section {
     padding: 100px 0;
     background: rgba(231, 231, 231, 0.6);
 }
-
-
-
-
-
 
 
 /*  ----------------------------------------------------------------
@@ -727,10 +675,6 @@ section {
 h2 {
     text-transform: uppercase;
 }
-
-
-
-
 
 
 
@@ -852,33 +796,6 @@ ul.footer-menu li:hover ul {
     z-index: 1;
 }
 
-
-
-
-
-
-
-/*
-.footer .menu li {
- float: left;
- list-style: none;
- margin-right: 10px;
- clear: both;
- display: block;
-}
-.footer .menu li a {
- font-size: 13px;
- color: #515769;
- font-weight: 600;
- font-family: 'Open Sans', sans-serif;
- padding-top: 0px;
- display: block;
-}
-.footer .menu li:last-child {
- margin: 0;
-}
-*/
-
 #buttons {
     float: right;
     position: relative;
@@ -906,7 +823,6 @@ ul.footer-menu li:hover ul {
 .modal-dialog .model-content .model-body {
     color: #7a7a7a!important;
 }
-
 
 
 /* ie needs position:relative here*/
@@ -979,8 +895,6 @@ ul.footer-menu li:hover ul {
 }
 
 @media only screen and (max-width: 484px) {
-
-
     .footer .footer-top .footer-contact ul {
         float: none;
         clear: both;
@@ -994,35 +908,7 @@ body .grand_popo-page-title {
 }
 
 
-
-
-
-
-
-/*****************
-WooCommerce
-  ******************/
-
-.woocommerce #content div.product div.summary,
-.woocommerce div.product div.summary,
-.woocommerce-page #content div.product div.summary,
-.woocommerce-page div.product div.summary {
-    width: 100%;
-    float: none;
-    clear: both;
-}
-
-
-
-
-
-
-
-/****************
-
- Product page
-
-*******************/
+/**************** Product page *******************/
 
 section button.regular-bt {
     margin: 20px;
@@ -1049,11 +935,6 @@ section button:active {
 section button:hover {
     border-radius: 10px;
 }
-
-
-
-
-
 
 
 
@@ -1102,21 +983,6 @@ Product page
         width: calc(100%/1);
     }
 }
-
-
-
-
-
-
-
-/*
-@media only screen and (min-width : 992px) {
-
-
-}
-  @media only screen and (min-width : 1200px) {
-
-    }*/
 
 h2.textcenter {
     margin-bottom: 40px;
@@ -1215,6 +1081,23 @@ h3.price-title {
     margin: 0;
 }
 
+.form-group textarea {
+    box-shadow: none;
+    border-radius: 0;
+}
+
+.contact .form-signin .btn {
+    text-align: center;
+    border-radius: 0;
+    padding: 7px 22px;
+    margin: 0;
+    border-color: #ccc;
+    background-color: #fff !important;
+    color: #333;
+    line-height: 2;
+    height: auto;
+}
+
 .selected .inner-wrap .btn {
     border: 1px solid #868ab0;
     background: #868ab0;
@@ -1241,20 +1124,6 @@ h3.price-title {
     background: rgba(234, 158, 83, 0.7);
 }
 
-
-
-
-
-/*
-
-
-.super{ background: #21374b; }
-.booster{ background: #a6adb2; }
-.turbo{ background: #be4248; }
-.rocket{ background: #6dbcdb;  }
-
-
-*/
 
 
 /************** Personal *******************/
@@ -1347,8 +1216,6 @@ h3.price-title {
 #order-summary-wrapper ul {
     margin-left: 10px!important;
 }
-
-
 
 
 
@@ -1497,22 +1364,6 @@ h3.price-title {
 .selected .inner-wrap {
     border: 1px solid #53588f;
 }
-
-.selected .inner-wrap {}
-
-.selected .inner-wrap .value-box,
-
-
-
-
-
-
-/*.price-outer-wrapper:hover .inner-wrap .value-box{background: #53588f;}
-.selected .inner-wrap .btn,
-.price-outer-wrapper:hover .inner-wrap .btn
-{background: #53588f; color: #fff; border: 1px solid #53588f; }*/
-
-.left-side {}
 
 .left-side dt {
     width: 151px;
