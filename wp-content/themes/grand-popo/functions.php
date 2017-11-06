@@ -2090,7 +2090,7 @@ function prefix_send_email_to_admin() {
    
     //var_dump($template);
 
-    $to      = 'sandeepnewa@gmail.com, gtravers@broadsignal.com.au';
+    $to      = 'sales@broadsignal.com.au';
     $subject = 'New Order Details - '. $_POST['firstname'] . ' ' . $_POST['lastname'];
     $message = $template;
     $headers  = 'MIME-Version: 1.0' . "\r\n";
