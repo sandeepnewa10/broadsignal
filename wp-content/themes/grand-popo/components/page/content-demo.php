@@ -177,12 +177,7 @@ endif;
                             </span>
                         </div>
                     </div>
-                     <div class="form-group col-sm-12">
-                        <label class="col-sm-12 control-label">
-                            <a href="http://demo.broadsignal.com.au/wp-content/uploads/2017/11/VOIP-International-Call-Rates.pdf" target="_blank">International Call Rates PDF</a>
-                        </label>
-                        
-                    </div>
+                     
                 </div>
                 <div class="order-right-side col-md-6" id="order-button">
                     <form action="<?php echo esc_url(admin_url('admin-ajax.php')); ?>" id="form" method="post">
@@ -223,14 +218,14 @@ endif;
                             </label>
                             <div class="row">
                                 <div class="form-group col-xs-4 col-sm-4 col-md-4">
-                                    <input class="form-control" id="phone-area-number" name="phone-area-number" required="" type="text">
+                                    <input class="form-control" id="phone-area-number" name="phone-area-number" type="text">
                                     <label for="phone-area-number" style="font-size: 12px; font-weight:400;">
                                         Area Code
                                     </label>
                                     </input>
                                 </div>
                                 <div class="form-group col-xs-8  col-sm-8 col-md-18">
-                                    <input class="form-control" id="phone-line-number" name="phone-line-number" required="" type="text">
+                                    <input class="form-control" id="phone-line-number" name="phone-line-number" type="text">
                                     <label for="phone-line-number" style="font-size: 12px; font-weight:400;">
                                         Phone Number
                                     </label>

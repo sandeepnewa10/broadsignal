@@ -2139,7 +2139,7 @@ function prefix_new_nbn_send_email_to_admin() {
     }
 
 
-    $to      = 'jems.khadgi@gmail.com, sandeepnewa@gmail.com';
+    $to      = 'sales@broadsignal.com.au';
     $subject = 'New NBN Request Details - '. $_POST['firstname'] . ' ' . $_POST['lastname'];
     $message = $template;
     $headers  = 'MIME-Version: 1.0' . "\r\n";

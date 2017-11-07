@@ -76,14 +76,14 @@ $col = "col xl-3-4 lg-3-4 md-1-1 sm-1-1";
                         </label>
                         <div class="row">
                             <div class="form-group col-xs-4 col-sm-4 col-md-4">
-                                <input class="form-control" id="phone-area-number" name="phone-area-number" required="" type="text">
+                                <input class="form-control" id="phone-area-number" name="phone-area-number" type="text">
                                 <label for="phone-area-number" style="font-size: 12px; font-weight:400;">
                                     Area Code
                                 </label>
                                 </input>
                             </div>
                             <div class="form-group col-xs-8  col-sm-8 col-md-18">
-                                <input class="form-control" id="phone-line-number" name="phone-line-number" required="" type="text">
+                                <input class="form-control" id="phone-line-number" name="phone-line-number" type="text">
                                 <label for="phone-line-number" style="font-size: 12px; font-weight:400;">
                                     Phone Number
                                 </label>
